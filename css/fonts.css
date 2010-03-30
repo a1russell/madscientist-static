@@ -1,0 +1,139 @@
+@font-face {
+	font-family: 'DejaVuSansBook';
+	src: url('/static/fonts/DejaVuSans/DejaVuSans.eot');
+	src: local('DejaVu Sans'),
+	     local('DejaVuSans'),
+	     url('/static/fonts/DejaVuSans/DejaVuSans.woff') format('woff'),
+	     url('/static/fonts/DejaVuSans/DejaVuSans.ttf') format('truetype'),
+	     url('/static/fonts/DejaVuSans/DejaVuSans.svg#DejaVuSans') format('svg');
+}
+
+@font-face {
+	font-family: 'DejaVuSansOblique';
+	src: url('/static/fonts/DejaVuSans/DejaVuSans-Oblique.eot');
+	src: local('DejaVu Sans'),
+	     local('DejaVuSans-Oblique'),
+	     url('/static/fonts/DejaVuSans/DejaVuSans-Oblique.woff') format('woff'),
+	     url('/static/fonts/DejaVuSans/DejaVuSans-Oblique.ttf') format('truetype'),
+	     url('/static/fonts/DejaVuSans/DejaVuSans-Oblique.svg#DejaVuSans-Oblique') format('svg');
+}
+
+@font-face {
+	font-family: 'DejaVuSansMonoBook';
+	src: url('/static/fonts/DejaVuSansMono/DejaVuSansMono.eot');
+	src: local('DejaVu Sans Mono'),
+	     local('DejaVuSansMono'),
+	     url('/static/fonts/DejaVuSansMono/DejaVuSansMono.woff') format('woff'),
+	     url('/static/fonts/DejaVuSansMono/DejaVuSansMono.ttf') format('truetype'),
+	     url('/static/fonts/DejaVuSansMono/DejaVuSansMono.svg#DejaVuSansMono') format('svg');
+}
+
+@font-face {
+	font-family: 'DejaVuSansMonoOblique';
+	src: url('/static/fonts/DejaVuSansMono/DejaVuSansMono-Oblique.eot');
+	src: local('DejaVu Sans Mono'),
+	     local('DejaVuSansMono-Oblique'),
+	     url('/static/fonts/DejaVuSansMono/DejaVuSansMono-Oblique.woff') format('woff'),
+	     url('/static/fonts/DejaVuSansMono/DejaVuSansMono-Oblique.ttf') format('truetype'),
+	     url('/static/fonts/DejaVuSansMono/DejaVuSansMono-Oblique.svg#DejaVuSansMono-Oblique') format('svg');
+}
+
+@font-face {
+	font-family: 'DejaVuSansMonoBold';
+	src: url('/static/fonts/DejaVuSansMono/DejaVuSansMono-Bold.eot');
+	src: local('DejaVu Sans Mono'),
+	     local('DejaVuSansMono-Bold'),
+	     url('/static/fonts/DejaVuSansMono/DejaVuSansMono-Bold.woff') format('woff'),
+	     url('/static/fonts/DejaVuSansMono/DejaVuSansMono-Bold.ttf') format('truetype'),
+	     url('/static/fonts/DejaVuSansMono/DejaVuSansMono-Bold.svg#DejaVuSansMono-Bold') format('svg');
+}
+
+@font-face {
+	font-family: 'DejaVuSansMonoBoldOblique';
+	src: url('/static/fonts/DejaVuSansMono/DejaVuSansMono-BoldOblique.eot');
+	src: local('DejaVu Sans Mono'),
+	     local('DejaVuSansMono-BoldOblique'),
+	     url('/static/fonts/DejaVuSansMono/DejaVuSansMono-BoldOblique.woff') format('woff'),
+	     url('/static/fonts/DejaVuSansMono/DejaVuSansMono-BoldOblique.ttf') format('truetype'),
+	     url('/static/fonts/DejaVuSansMono/DejaVuSansMono-BoldOblique.svg#DejaVuSansMono-BoldOblique') format('svg');
+}
+
+@font-face {
+	font-family: 'DejaVuSerifBook';
+	src: url('/static/fonts/DejaVuSerif/DejaVuSerif.eot');
+	src: local('DejaVu Serif'),
+	     local('DejaVuSerif'),
+	     url('/static/fonts/DejaVuSerif/DejaVuSerif.woff') format('woff'),
+	     url('/static/fonts/DejaVuSerif/DejaVuSerif.ttf') format('truetype'),
+	     url('/static/fonts/DejaVuSerif/DejaVuSerif.svg#DejaVuSerif') format('svg');
+}
+
+@font-face {
+	font-family: 'DejaVuSerifItalic';
+	src: url('/static/fonts/DejaVuSerif/DejaVuSerif-Italic.eot');
+	src: local('DejaVu Serif'),
+	     local('DejaVuSerif-Italic'),
+	     url('/static/fonts/DejaVuSerif/DejaVuSerif-Italic.woff') format('woff'),
+	     url('/static/fonts/DejaVuSerif/DejaVuSerif-Italic.ttf') format('truetype'),
+	     url('/static/fonts/DejaVuSerif/DejaVuSerif-Italic.svg#DejaVuSerif-Italic') format('svg');
+}
+
+@font-face {
+	font-family: 'DejaVuSerifBold';
+	src: url('/static/fonts/DejaVuSerif/DejaVuSerif-Bold.eot');
+	src: local('DejaVu Serif'),
+	     local('DejaVuSerif-Bold'),
+	     url('/static/fonts/DejaVuSerif/DejaVuSerif-Bold.woff') format('woff'),
+	     url('/static/fonts/DejaVuSerif/DejaVuSerif-Bold.ttf') format('truetype'),
+	     url('/static/fonts/DejaVuSerif/DejaVuSerif-Bold.svg#DejaVuSerif-Bold') format('svg');
+}
+
+@font-face {
+	font-family: 'DejaVuSerifBoldItalic';
+	src: url('/static/fonts/DejaVuSerif/DejaVuSerif-BoldItalic.eot');
+	src: local('DejaVu Serif'),
+	     local('DejaVuSerif-BoldItalic'),
+	     url('/static/fonts/DejaVuSerif/DejaVuSerif-BoldItalic.woff') format('woff'),
+	     url('/static/fonts/DejaVuSerif/DejaVuSerif-BoldItalic.ttf') format('truetype'),
+	     url('/static/fonts/DejaVuSerif/DejaVuSerif-BoldItalic.svg#DejaVuSerif-BoldItalic') format('svg');
+}
+
+@font-face {
+	font-family: 'DejaVuSerifCondensedBook';
+	src: url('/static/fonts/DejaVuSerif/DejaVuSerifCondensed.eot');
+	src: local('DejaVu Serif Condensed'),
+	     local('DejaVuSerifCondensed'),
+	     url('/static/fonts/DejaVuSerif/DejaVuSerifCondensed.woff') format('woff'),
+	     url('/static/fonts/DejaVuSerif/DejaVuSerifCondensed.ttf') format('truetype'),
+	     url('/static/fonts/DejaVuSerif/DejaVuSerifCondensed.svg#DejaVuSerifCondensed') format('svg');
+}
+
+@font-face {
+	font-family: 'DejaVuSerifCondensedBook';
+	src: url('/static/fonts/DejaVuSerif/DejaVuSerifCondensed-Italic.eot');
+	src: local('DejaVu Serif Condensed'),
+	     local('DejaVuSerifCondensed-Italic'),
+	     url('/static/fonts/DejaVuSerif/DejaVuSerifCondensed-Italic.woff') format('woff'),
+	     url('/static/fonts/DejaVuSerif/DejaVuSerifCondensed-Italic.ttf') format('truetype'),
+	     url('/static/fonts/DejaVuSerif/DejaVuSerifCondensed-Italic.svg#DejaVuSerifCondensed-Italic') format('svg');
+}
+
+@font-face {
+	font-family: 'DejaVuSerifCondensedBold';
+	src: url('/static/fonts/DejaVuSerif/DejaVuSerifCondensed-Bold.eot');
+	src: local('DejaVu Serif Condensed'),
+	     local('DejaVuSerifCondensed-Bold'),
+	     url('/static/fonts/DejaVuSerif/DejaVuSerifCondensed-Bold.woff') format('woff'),
+	     url('/static/fonts/DejaVuSerif/DejaVuSerifCondensed-Bold.ttf') format('truetype'),
+	     url('/static/fonts/DejaVuSerif/DejaVuSerifCondensed-Bold.svg#DejaVuSerifCondensed-Bold') format('svg');
+}
+
+@font-face {
+	font-family: 'DejaVuSerifCondensedBoldItali';
+	src: url('/static/fonts/DejaVuSerif/DejaVuSerifCondensed-BoldItalic.eot');
+	src: local('DejaVu Serif Condensed'),
+	     local('DejaVuSerifCondensed-BoldItalic'),
+	     url('/static/fonts/DejaVuSerif/DejaVuSerifCondensed-BoldItalic.woff') format('woff'),
+	     url('/static/fonts/DejaVuSerif/DejaVuSerifCondensed-BoldItalic.ttf') format('truetype'),
+	     url('/static/fonts/DejaVuSerif/DejaVuSerifCondensed-BoldItalic.svg#DejaVuSerifCondensed-BoldItalic') format('svg');
+}

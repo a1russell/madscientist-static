@@ -1,4 +1,5 @@
 #subsections {
+	background-color: #2A0808;
 	border-collapse: collapse;
 	display: table;
 	table-layout: fixed;
@@ -6,22 +7,22 @@
 }
 
 #subsections > ul {
-	border-bottom: none;
 	border-right: none;
 	display: table-row;
+	line-height: 1em;
 }
 
 #subsections > ul > li {
-	border-top: 1px solid #FFFFFF;
+	border-top: 0.125em solid #D0D0D0;
 	display: table-cell;
 	text-align: center;
 }
 
 #subsections > ul > li > a {
-	color: #FFFFFF;
+	color: #D0D0D0;
 	display: block;
 	margin: 0;
-	padding: 0;
+	padding: 0.187em 0 0.188em 0;
 	text-decoration: none;
 }
 
@@ -30,7 +31,8 @@
 }
 
 #subsections > ul > li#active_subsection_li > a:hover {
-	background-color: #000000;
+	background-color: #2A0808;
+	cursor: default;
 }
 
 #subsections > ul > li#active_subsection_li > a:before {
@@ -38,13 +40,13 @@
 }
 
 #subsections > ul > li:first-of-type > a {
-	border-left: 1px solid #FFFFFF;
+	border-left: 0.125em solid #D0D0D0;
 }
 
 #subsections > ul > li:last-of-type > a {
-	border-right: 1px solid #FFFFFF;
+	border-right: 0.125em solid #D0D0D0;
 }
 
 #subsections > ul > li > a:hover {
-	background-color: #222222;
+	background-color: #3A1010;
 }

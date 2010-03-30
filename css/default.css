@@ -1,3 +1,7 @@
+@import url("/static/css/reset.css");
+@import url("/static/css/fonts.css");
+@import url("/static/css/base.css");
 @import url("/static/css/global.css");
 @import url("/static/css/sections_nav.css");
 @import url("/static/css/subsections_nav.css");
+@import url("/static/css/typography.css");

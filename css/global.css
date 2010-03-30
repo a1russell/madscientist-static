@@ -1,17 +1,33 @@
 body {
-	background-color: #000000;
-	color: #FFFFFF;
+	background-color: #111111;
+	color: #D0D0D0;
+	font-family: "DejaVuSansBook", sans-serif, "DejaVuSerifBook";
 	margin-left: auto;
 	margin-right: auto;
+	max-width: 43.5em;
+	min-width: 30.5em;
 	text-align: left;
-	width: 960px;
 }
 
-body > section {
-	border: 1px solid #FFFFFF;
-	display: block;
+body > section,
+body > article {
+	background-color: #08081A;
+	border: 0.125em solid #D0D0D0;
+	border-top: 0;
+	-moz-box-shadow: inset black 0 0.5em 0.5em;
+	-webkit-box-shadow: inset black 0 0.5em 0.5em;
+	box-shadow: inset black 0 0.5em 0.5em;
+	margin-bottom: 1.5em;
+	padding-bottom: 1.5em;
+	padding-left: 2.25em;
+	padding-right: 2.25em;
 }
 
-h1 {
-	display: inline;
+body > section > h1:first-of-type,
+body > article > h1:first-of-type {
+	padding-top: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "DejaVuSerifBook", serif;
 }
