@@ -13,16 +13,16 @@
 }
 
 #subsections > ul > li {
-	border-top: 0.125em solid #D0D0D0;
+	border-top: 0.125em solid #CCCCCC;
 	display: table-cell;
 	text-align: center;
 }
 
 #subsections > ul > li > a {
-	color: #D0D0D0;
+	color: #CCCCCC;
 	display: block;
 	margin: 0;
-	padding: 0.187em 0 0.188em 0;
+	padding: 0.25em 0 0.25em 0;
 	text-decoration: none;
 }
 
@@ -40,11 +40,11 @@
 }
 
 #subsections > ul > li:first-of-type > a {
-	border-left: 0.125em solid #D0D0D0;
+	border-left: 0.125em solid #CCCCCC;
 }
 
 #subsections > ul > li:last-of-type > a {
-	border-right: 0.125em solid #D0D0D0;
+	border-right: 0.125em solid #CCCCCC;
 }
 
 #subsections > ul > li > a:hover {

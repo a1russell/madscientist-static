@@ -4,8 +4,8 @@ body {
 
 h1 {
 	font-size: 2.25em;
-	line-height: 1.333em;
-	padding-bottom: 1.333em;
+	line-height: 1.444em;
+	padding-bottom: 1.444em;
 }
 
 hgroup h1 {
@@ -15,29 +15,29 @@ hgroup h1 {
 hgroup h2 {
 	font-size: 1.313em;
 	font-variant: small-caps;
-	line-height: 1.143em;
-	padding-bottom: 2.286em;
+	line-height: 1.238em;
+	padding-bottom: 2.476em;
 }
 
 section h1,
 article h1 {
 	font-size: 1.5em;
-	line-height: 1em;
-	padding-bottom: 1em;
+	line-height: 1.083em;
+	padding-bottom: 1.083em;
 }
 
 section section h1,
 section h2,
 article h2 {
 	font-size: 1.313em;
-	line-height: 1.143em;
-	padding-bottom: 1.143em;
+	line-height: 1.238em;
+	padding-bottom: 1.238em;
 }
 
 section section section h1 {
 	font-size: 1.125em;
-	line-height: 1.333em;
-	padding-bottom: 1.333em;
+	line-height: 1.444em;
+	padding-bottom: 1.444em;
 }
 
 dt {
@@ -46,6 +46,6 @@ dt {
 
 p, dl, ol, ul {
 	font-size: 1em;
-	line-height: 1.5em;
-	padding-bottom: 1.5em;
+	line-height: 1.625em;
+	padding-bottom: 1.625em;
 }
