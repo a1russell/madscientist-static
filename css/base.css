@@ -2,3 +2,9 @@ article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary {
 	display: block;
 }
+
+dl dl, dl ol, dl ul,
+ol dl, ol ol, ol ul,
+ul dl, ul ol, ul ul {
+	padding: 0 0 0 2.5em;
+}
