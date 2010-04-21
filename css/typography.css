@@ -31,7 +31,9 @@ section h2,
 article h2 {
 	font-size: 1.313em;
 	line-height: 1.238em;
-	padding-bottom: 1.238em;
+	border-top: 0.125em solid #2A0808;
+	padding-top: 0.348em;
+	padding-bottom: 0.765em;
 }
 
 section section section h1 {
