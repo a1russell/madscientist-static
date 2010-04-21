@@ -15,9 +15,9 @@ body > article {
 	background-color: #08081A;
 	border: 0.125em solid #CCCCCC;
 	border-top: 0;
-	-moz-box-shadow: inset black 0 0.5em 0.5em;
-	-webkit-box-shadow: inset black 0 0.5em 0.5em;
-	box-shadow: inset black 0 0.5em 0.5em;
+	-moz-box-shadow: inset #04040D 0 0.5em 0.5em;
+	-webkit-box-shadow: inset #04040D 0 0.5em 0.5em;
+	box-shadow: inset #04040D 0 0.5em 0.5em;
 	margin-bottom: 1.625em;
 	padding-bottom: 1.625em;
 	padding-left: 2.44em;
