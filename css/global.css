@@ -33,6 +33,13 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "DejaVuSerifBook", serif;
 }
 
+dl dl, dl ol, dl ul,
+ol dl, ol ol, ol ul,
+ul dl, ul ol, ul ul {
+	padding-left: 2.5em;
+	padding-bottom: 0;
+}
+
 a:link {
 	color: #11AACC;
 }
